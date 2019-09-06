@@ -52,7 +52,7 @@ parameter H_BACK_PORCH 	= H_SYNC_PULSE+64;
 parameter V_SCREEN 		= 600;
 parameter V_FRONT_PORCH = V_SCREEN+37;
 parameter V_SYNC_PULSE 	= V_FRONT_PORCH+6;
-parameter V_BACK_PORCH 	= V_BACK_PORCH+23;
+parameter V_BACK_PORCH 	= V_SYNC_PULSE+23;
 
 
 //=======================================================
